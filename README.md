@@ -124,7 +124,7 @@ pandoc_proje/
 ### Ekran Görüntüleri
 ### Grafik Arayüz (GUI)
 Aşağıda modern grafik arayüz görülmektedir:
-![GUI Görünümü](gui.png)
+![GUI Görünümü]([gui.png](https://github.com/LatifLatiff/pardus-pandoc-aray-z-uygulamas-/blob/main/qui.png?raw=true))
 
 ### Terminal Arayüz (TUI)
 Terminal tabanlı arayüz görünümü:
