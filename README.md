@@ -89,7 +89,7 @@ Sisteminizde grafik arayüz varsa GUI, yoksa TUI açılır:
 ```bash
 ./src/app.sh
 
-3. Mod Zorlama
+### 3. Mod Zorlama
 
 Belirli bir arayüzü kullanmak isterseniz:
 Bash
@@ -98,7 +98,7 @@ Bash
 ./src/app.sh --tui   # Terminal Arayüzü Zorla
 ./src/app.sh --help  # Yardım Menüsü
 
-🏗 Proje Mimarisi
+###  Proje Mimarisi
 
 Proje, "Modüler Programlama" prensiplerine uygun olarak parçalanmış dosya yapısına sahiptir:
 Plaintext
@@ -121,23 +121,21 @@ pandoc_proje/
         ├── presets.sh     # Format tanımları
         └── validators.sh  # Dosya doğrulama fonksiyonları
 
-📸 Ekran Görüntüleri
-Grafik Arayüz (GUI)
+### Ekran Görüntüleri
+## Grafik Arayüz (GUI)
 
-(Buraya GUI ekran görüntüsünü ekleyin. Örn: docs/gui_screenshot.png)
-Terminal Arayüz (TUI)
+![GUI Görünümü](docs/gui.png)
+## Terminal Arayüz (TUI)
 
-(Buraya TUI ekran görüntüsünü ekleyin)
-🎥 Tanıtım Videosu
+![TUI Görünümü](docs/tui.png)
+### Tanıtım Videosu
 
 Projenin kurulumunu, kullanımını ve özelliklerini detaylıca anlatan tanıtım videosuna aşağıdaki linkten ulaşabilirsiniz:
 
 ▶️ [YOUTUBE VİDEO LİNKİNİZİ BURAYA YAPIŞTIRIN]
-👨‍💻 Geliştirici
+### Geliştirici
 
-    Ad Soyad: [Adın Soyadın]
-
-    Öğrenci No: [Öğrenci Numaran]
+    Ad Soyad: LATIF LATIF
 
     Bölüm: Bilgisayar Mühendisliği
 
