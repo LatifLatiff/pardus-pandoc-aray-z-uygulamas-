@@ -1,0 +1,1 @@
+# pardus-pandoc-aray-z-uygulamas-
