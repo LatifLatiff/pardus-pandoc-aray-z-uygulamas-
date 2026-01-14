@@ -122,11 +122,12 @@ pandoc_proje/
         └── validators.sh  # Dosya doğrulama fonksiyonları
 
 ### Ekran Görüntüleri
-## Grafik Arayüz (GUI)
+### Grafik Arayüz (GUI)
+Aşağıda modern grafik arayüz görülmektedir:
+![GUI Görünümü](gui.png)
 
-![GUI Görünümü](qui.png)
-## Terminal Arayüz (TUI)
-
+### Terminal Arayüz (TUI)
+Terminal tabanlı arayüz görünümü:
 ![TUI Görünümü](tui.png)
 ### Tanıtım Videosu
 
