@@ -124,7 +124,7 @@ pandoc_proje/
 ### Ekran Görüntüleri
 ## Grafik Arayüz (GUI)
 
-![GUI Görünümü]([pandoc_proje/docs/gui.png](https://github.com/LatifLatiff/pardus-pandoc-aray-z-uygulamas-/blob/main/pandoc_proje/docs/qui.png))
+![GUI Görünümü](https://github.com/LatifLatiff/pardus-pandoc-aray-z-uygulamas-/blob/main/pandoc_proje/docs/qui.png?raw=true)
 ## Terminal Arayüz (TUI)
 
 ![TUI Görünümü](pandoc_proje/docs/tui.png)
