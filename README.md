@@ -88,3 +88,59 @@ Pardus menüsünde **"Pardus Belge Dönüştürücü"** olarak aratıp tıklayı
 Sisteminizde grafik arayüz varsa GUI, yoksa TUI açılır:
 ```bash
 ./src/app.sh
+
+3. Mod Zorlama
+
+Belirli bir arayüzü kullanmak isterseniz:
+Bash
+
+./src/app.sh --gui   # Grafik Arayüzü Zorla
+./src/app.sh --tui   # Terminal Arayüzü Zorla
+./src/app.sh --help  # Yardım Menüsü
+
+🏗 Proje Mimarisi
+
+Proje, "Modüler Programlama" prensiplerine uygun olarak parçalanmış dosya yapısına sahiptir:
+Plaintext
+
+pandoc_proje/
+├── install.sh             # Otomatik kurulum scripti
+├── uninstall.sh           # Kaldırma ve temizleme scripti
+├── README.md              # Proje dökümantasyonu
+├── logo.png               # Uygulama logosu
+└── src/
+    ├── app.sh             # Ana giriş noktası (Main)
+    └── lib/               # Kütüphane dosyaları
+        ├── common.sh      # Ortak değişkenler ve yardımcılar
+        ├── config.sh      # Ayar kaydetme/okuma (Persistence)
+        ├── core.sh        # Pandoc komut inşası
+        ├── deps.sh        # Bağımlılık kontrolü
+        ├── gui.sh         # YAD arayüz kodları
+        ├── tui.sh         # Whiptail arayüz kodları
+        ├── logging.sh     # Loglama sistemi
+        ├── presets.sh     # Format tanımları
+        └── validators.sh  # Dosya doğrulama fonksiyonları
+
+📸 Ekran Görüntüleri
+Grafik Arayüz (GUI)
+
+(Buraya GUI ekran görüntüsünü ekleyin. Örn: docs/gui_screenshot.png)
+Terminal Arayüz (TUI)
+
+(Buraya TUI ekran görüntüsünü ekleyin)
+🎥 Tanıtım Videosu
+
+Projenin kurulumunu, kullanımını ve özelliklerini detaylıca anlatan tanıtım videosuna aşağıdaki linkten ulaşabilirsiniz:
+
+▶️ [YOUTUBE VİDEO LİNKİNİZİ BURAYA YAPIŞTIRIN]
+👨‍💻 Geliştirici
+
+    Ad Soyad: [Adın Soyadın]
+
+    Öğrenci No: [Öğrenci Numaran]
+
+    Bölüm: Bilgisayar Mühendisliği
+
+    Ders: Linux Scriptleri ve Araçları
+
+© 2026 - Bu proje GPLv3 lisansı ile açık kaynak olarak dağıtılmaktadır.
