@@ -124,10 +124,10 @@ pandoc_proje/
 ### Ekran Görüntüleri
 ## Grafik Arayüz (GUI)
 
-![GUI Görünümü](https://github.com/LatifLatiff/pardus-pandoc-aray-z-uygulamas-/blob/main/pandoc_proje/docs/qui.png?raw=true)
+![GUI Görünümü](qui.png)
 ## Terminal Arayüz (TUI)
 
-![TUI Görünümü](pandoc_proje/docs/tui.png)
+![TUI Görünümü](tui.png)
 ### Tanıtım Videosu
 
 Projenin kurulumunu, kullanımını ve özelliklerini detaylıca anlatan tanıtım videosuna aşağıdaki linkten ulaşabilirsiniz:
