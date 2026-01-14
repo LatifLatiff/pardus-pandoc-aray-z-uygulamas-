@@ -124,10 +124,10 @@ pandoc_proje/
 ### Ekran Görüntüleri
 ## Grafik Arayüz (GUI)
 
-![GUI Görünümü](docs/gui.png)
+![GUI Görünümü](pandoc_proje/docs/gui.png)
 ## Terminal Arayüz (TUI)
 
-![TUI Görünümü](docs/tui.png)
+![TUI Görünümü](pandoc_proje/docs/tui.png)
 ### Tanıtım Videosu
 
 Projenin kurulumunu, kullanımını ve özelliklerini detaylıca anlatan tanıtım videosuna aşağıdaki linkten ulaşabilirsiniz:
