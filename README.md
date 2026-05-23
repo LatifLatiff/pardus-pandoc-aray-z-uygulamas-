@@ -141,16 +141,10 @@ Terminal tabanlı arayüz görünümü:
 
 <img src="https://raw.githubusercontent.com/LatifLatiff/pardus-pandoc-aray-z-uygulamas-/main/tui.png" alt="TUI Görünümü" width="900" />
 
-## 🎥 Tanıtım Videosu
-
-Projenin kurulumunu, kullanımını ve özelliklerini detaylıca anlatan tanıtım videosuna aşağıdaki linkten ulaşabilirsiniz:
-
-▶️ [YOUTUBE VİDEO LİNKİNİZİ BURAYA YAPIŞTIRIN]
 
 ## 👨‍💻 Geliştirici
 
 - Ad Soyad: LATIF LATIF
 - Bölüm: Bilgisayar Mühendisliği
-- Ders: Linux Scriptleri ve Araçları
 
 © 2026 - Bu proje GPLv3 lisansı ile açık kaynak olarak dağıtılmaktadır.
