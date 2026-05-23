@@ -4,7 +4,7 @@
 ![OS](https://img.shields.io/badge/OS-Pardus%20%2F%20Linux-1793D1?style=flat&logo=linux&logoColor=white)
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
-**Linux Scriptleri ve Araçları** dersi dönem projesi kapsamında geliştirilmiş; karmaşık `pandoc` komutlarını kullanıcı dostu bir arayüzle (GUI & TUI) yönetmeyi sağlayan, **Pardus** uyumlu profesyonel belge dönüştürme aracıdır.
+**Linux Scriptleri ve Araçları** dersi dönem projesi kapsamında geliştirilmiş; karmaşık `pandoc` komutlarını kullanıcı dostu bir arayüzle (GUI & TUI) yönetmeyi sağlayan, **Pardus** u[...]
 
 ---
 
@@ -24,7 +24,7 @@
 ## 🚀 Proje Hakkında
 Bu projenin temel amacı, Linux terminalinde güçlü ancak karmaşık parametrelere sahip olan **Pandoc** aracı için modern ve kullanımı kolay bir ön yüz (Frontend) oluşturmaktır.
 
-Kullanıcılar terminal komutlarıyla uğraşmadan **Markdown, DOCX, HTML, EPUB ve PDF** formatları arasında güvenli ve hızlı bir şekilde dönüşüm yapabilirler. Uygulama, kullanıcının tercihine göre Grafik Arayüz (GUI) veya Terminal Arayüzü (TUI) ile çalışabilir.
+Kullanıcılar terminal komutlarıyla uğraşmadan **Markdown, DOCX, HTML, EPUB ve PDF** formatları arasında güvenli ve hızlı bir şekilde dönüşüm yapabilirler. Uygulama, kullanıcının [...]
 
 ---
 
@@ -124,7 +124,7 @@ pandoc_proje/
 ### Ekran Görüntüleri
 ### Grafik Arayüz (GUI)
 Aşağıda modern grafik arayüz görülmektedir:
-![GUI Görünümü]([gui.png](https://github.com/LatifLatiff/pardus-pandoc-aray-z-uygulamas-/blob/main/qui.png?raw=true))
+![GUI Görünümü](qui.png)
 
 ### Terminal Arayüz (TUI)
 Terminal tabanlı arayüz görünümü:
