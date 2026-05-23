@@ -58,19 +58,23 @@ Projenin çalışması için aşağıdaki paketlerin sistemde yüklü olması ge
 Projeyi bilgisayarınıza indirdikten sonra, **tek komutla** tüm bağımlılıkları yükleyip kurulumu tamamlayabilirsiniz.
 
 1.  **Terminali açın ve proje dizinine girin:**
+
     ```bash
     cd pandoc_proje
     ```
 
 2.  **Kurulum scriptini çalıştırın:**
+
     ```bash
     chmod +x install.sh
     ./install.sh
     ```
+
     *(Bu işlem gerekli paketleri yükleyecek, masaüstü kısayolunu oluşturacak ve uygulamayı Pardus menüsüne ekleyecektir.)*
 
 3.  **Kaldırma (Uninstall):**
     Uygulamayı sistemden tamamen silmek için:
+
     ```bash
     ./uninstall.sh
     ```
@@ -86,23 +90,26 @@ Pardus menüsünde **"Pardus Belge Dönüştürücü"** olarak aratıp tıklayı
 
 ### 2. Terminalden (Otomatik Mod)
 Sisteminizde grafik arayüz varsa GUI, yoksa TUI açılır:
+
 ```bash
 ./src/app.sh
+```
 
 ### 3. Mod Zorlama
 
 Belirli bir arayüzü kullanmak isterseniz:
-Bash
 
+```bash
 ./src/app.sh --gui   # Grafik Arayüzü Zorla
 ./src/app.sh --tui   # Terminal Arayüzü Zorla
 ./src/app.sh --help  # Yardım Menüsü
+```
 
-###  Proje Mimarisi
+## 🧩 Proje Mimarisi
 
 Proje, "Modüler Programlama" prensiplerine uygun olarak parçalanmış dosya yapısına sahiptir:
-Plaintext
 
+```text
 pandoc_proje/
 ├── install.sh             # Otomatik kurulum scripti
 ├── uninstall.sh           # Kaldırma ve temizleme scripti
@@ -120,31 +127,30 @@ pandoc_proje/
         ├── logging.sh     # Loglama sistemi
         ├── presets.sh     # Format tanımları
         └── validators.sh  # Dosya doğrulama fonksiyonları
+```
 
-### Ekran Görüntüleri
+## 🖼️ Ekran Görüntüleri
 
 ### Grafik Arayüz (GUI)
 Aşağıda modern grafik arayüz görülmektedir:
 
-![GUI Görünümü](https://raw.githubusercontent.com/LatifLatiff/pardus-pandoc-aray-z-uygulamas-/main/qui.png)
+<img src="https://raw.githubusercontent.com/LatifLatiff/pardus-pandoc-aray-z-uygulamas-/main/qui.png" alt="GUI Görünümü" width="900" />
 
 ### Terminal Arayüz (TUI)
 Terminal tabanlı arayüz görünümü:
 
-![TUI Görünümü](https://raw.githubusercontent.com/LatifLatiff/pardus-pandoc-aray-z-uygulamas-/main/tui.png)
+<img src="https://raw.githubusercontent.com/LatifLatiff/pardus-pandoc-aray-z-uygulamas-/main/tui.png" alt="TUI Görünümü" width="900" />
 
-### Tanıtım Videosu
+## 🎥 Tanıtım Videosu
 
 Projenin kurulumunu, kullanımını ve özelliklerini detaylıca anlatan tanıtım videosuna aşağıdaki linkten ulaşabilirsiniz:
 
 ▶️ [YOUTUBE VİDEO LİNKİNİZİ BURAYA YAPIŞTIRIN]
 
-### Geliştirici
+## 👨‍💻 Geliştirici
 
-    Ad Soyad: LATIF LATIF
-
-    Bölüm: Bilgisayar Mühendisliği
-
-    Ders: Linux Scriptleri ve Araçları
+- Ad Soyad: LATIF LATIF
+- Bölüm: Bilgisayar Mühendisliği
+- Ders: Linux Scriptleri ve Araçları
 
 © 2026 - Bu proje GPLv3 lisansı ile açık kaynak olarak dağıtılmaktadır.
