@@ -122,18 +122,23 @@ pandoc_proje/
         └── validators.sh  # Dosya doğrulama fonksiyonları
 
 ### Ekran Görüntüleri
+
 ### Grafik Arayüz (GUI)
 Aşağıda modern grafik arayüz görülmektedir:
-![GUI Görünümü](qui.png)
+
+![GUI Görünümü](https://raw.githubusercontent.com/LatifLatiff/pardus-pandoc-aray-z-uygulamas-/main/qui.png)
 
 ### Terminal Arayüz (TUI)
 Terminal tabanlı arayüz görünümü:
-![TUI Görünümü](tui.png)
+
+![TUI Görünümü](https://raw.githubusercontent.com/LatifLatiff/pardus-pandoc-aray-z-uygulamas-/main/tui.png)
+
 ### Tanıtım Videosu
 
 Projenin kurulumunu, kullanımını ve özelliklerini detaylıca anlatan tanıtım videosuna aşağıdaki linkten ulaşabilirsiniz:
 
 ▶️ [YOUTUBE VİDEO LİNKİNİZİ BURAYA YAPIŞTIRIN]
+
 ### Geliştirici
 
     Ad Soyad: LATIF LATIF
